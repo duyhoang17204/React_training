@@ -1,6 +1,6 @@
 # React Training
 
-A minimal React and Tailwind CSS starter powered by Vite.
+A responsive tenant profile built with React and Tailwind CSS, powered by Vite.
 
 ## Requirements
 
@@ -14,7 +14,13 @@ npm ci
 npm run dev
 ```
 
-Open the local URL printed by Vite. The starter page uses Tailwind utility classes, configured in `tailwind.config.js` and loaded from `src/index.css`.
+Open the local URL printed by Vite. The profile page uses Tailwind utility classes, configured in `tailwind.config.js` and loaded from `src/index.css`.
+
+## Demo behavior
+
+The profile shows fixed sample information inspired by the supplied design reference. Editing updates the page for the current session only; changes are not stored. The message action displays a notice because no messaging service is connected. Access, lease, and document tabs show informational empty states; they are not backed by tenant records.
+
+The Figma reference was available as a zoomed-out overview only. Exact source dimensions, font, colors, spacing, assets, breakpoints, and prototype behavior could not be inspected. The responsive breakpoints, teal palette, spacing, generic icons, and mobile-to-wide layout are implementation choices based on the visible reference, not verified Figma values.
 
 ## Build and lint
 
